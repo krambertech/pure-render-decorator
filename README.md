@@ -22,11 +22,9 @@ Usage
 -----
 
 ```jsx
-import {Component} from 'react';
-import pureRender from 'pure-render-decorator';
+import {PureComponent} from 'react';
 
-@pureRender
-export default class Test extends Component {
+export default class Test extends PureComponent {
   render() {
     return <div />;
   }
